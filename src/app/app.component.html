@@ -1,0 +1,10 @@
+<div *ngIf="show" class="container p-grid p-dir-col p-justify-center p-align-center">
+  <div class="box">
+    <span id="text-1">BIENVENIDOS</span>
+    <a href="#!" id="logo">appy</a>
+  </div>
+  <a href="#!" id="accessBtn" (click)="access()" (click)="show=false">Ingresar</a>
+</div>
+
+<appy-session *ngIf="!show"></appy-session>
+<router-outlet></router-outlet>

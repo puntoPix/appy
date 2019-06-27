@@ -1,0 +1,38 @@
+#logo {
+  font-family: 'Baloo Tamma';
+  color: #ff1744;
+  font-size: 24px;
+  font-weight: 500;
+}
+#header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  font-weight: 500;
+  background: #20272a;
+  color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+#admin {
+  color: #fff;
+}
+#menu-izq {
+  list-style: none;
+}
+.menu-der{
+  float: right;
+  margin-right: 20px;
+  color: #fff;
+  font-family: "Varela Round";
+}
+#notif {
+  color: #f44336;
+}
+#notif-nro {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}

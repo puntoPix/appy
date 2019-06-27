@@ -1,0 +1,21 @@
+<div *ngIf="show1" class="p-grid p-dir-col p-justify-center p-align-center">
+		<p-toast [style]="{marginTop: '20px'}" position="top-center" key="tc"></p-toast>
+	<br>
+	<form>
+		<div class="ui-inputgroup">
+			<span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+			<input type="text" name="user" pInputText placeholder="Usuario" [(ngModel)]="user">
+		</div>
+		<br>
+		<br>
+		<div class="ui-inputgroup">
+			<span class="ui-inputgroup-addon"><i class="fa fa-key"></i></span>
+			<input type="password" name="pass" placeholder="Contraseña">
+		</div>
+	</form>
+	<br>
+	<br>
+	<br>
+	<a href="" (click)="iniciarSession()" id="sessionBtn" (click)="show1=false">Iniciar Sesión</a>
+</div>
+

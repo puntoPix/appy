@@ -1,0 +1,30 @@
+.p-grid {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.columnas {
+  box-sizing: border-box;
+  background: blue;
+  color: aliceblue;
+  text-align: center;
+}
+
+#sessionBtn {
+
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 50px;
+  background: #20272a;
+  color: #666;
+  transition: .5s;
+  border-radius: 10px;
+}
+
+#sessionBtn:hover {
+    color: #ff1744;
+    box-shadow: 0 0 7px #ff1744;
+    text-shadow: 0 0 2px #ff1744;
+}
